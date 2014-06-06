@@ -1,0 +1,27 @@
+{
+
+"watchDate" : "23rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : "1937",
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : "140",
+"movieLanguage" : "French",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				]
+			
+
+}

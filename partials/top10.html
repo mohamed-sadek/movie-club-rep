@@ -1,0 +1,80 @@
+<div class="movie_list top10">
+
+	<ul>
+
+		<li ng-repeat="movie in movies | orderBy:top | limitTo:10">
+			<div class="movie_big upcoming">
+				<h3><span class="number">{{$index + 1}}</span> - {{movie.movieName}}<span class="date">({{movie.movieDate}})</span></h3>
+				<div class="poster">
+					<img ng-src="{{movie.posterSource}}" ng-alt="{{movie.movieName}}" />
+					<p class="picked_by">
+						Picked By: <span>{{movie.pickedBy}}</span>
+					</p>
+					<p class="rating" ng-model="totalRating">
+						{{movie.totalRating}}
+					</p>
+				</div>
+
+				<div class="details">
+					<h4 class="no-margin-top">Plot</h4>
+					<p class="plot">
+						{{movie.moviePlot}}
+					</p>
+
+					<h4>Starring</h4>
+					<ul class="starring">
+						<li ng-repeat="item in movie.actors">
+							<p>
+								{{item.actor}}
+							</p>
+						</li>
+
+					</ul>
+
+					<p class="director">
+						Directed By:<span>{{movie.movieDirector}}</span>
+					</p>
+
+					<h4>Genre</h4>
+					<ul class="genre">
+						<li ng-repeat="item in movie.genres">
+							<p>
+								{{item.genre}}
+							</p>
+						</li>
+					</ul>
+
+				</div>
+				<!--End of Movie Details!-->
+
+				<div class="clr"></div>
+
+				<div class="club_info">
+					<p class="Language">
+						Language:<span>{{movie.movieLanguage}}</span>
+					</p>
+					<p class="duration">
+						Duration:<span>{{movie.movieDuration}}</span>Minutes
+					</p>
+					<p class="nada_rating">
+						Nada's Rating:<span>{{movie.nadaRating}}</span>/10
+					</p>
+					<p class="ex_rating">
+						Ex's Rating:<span>{{movie.exRating}}</span>/10
+					</p>
+					<div class="clr"></div>
+				</div>
+
+				<!--End of Club Info!-->
+
+				<hr>
+
+			</div>
+			<!--End of Upcoming Movie!-->
+
+		</li>
+
+	</ul>
+
+</div>
+<!--End of Movie List!-->

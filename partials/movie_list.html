@@ -1,0 +1,97 @@
+<div class="movie_list">
+	<div class="filter">
+		<label>Sort By: </label>
+
+		<form ng-model="sorting">
+			<div class="filters_list">
+
+				<button type="button" ng-click="predicate = 'movieDate'; showClear($event)">
+					Year
+				</button>
+				<button type="button" ng-click="predicate = 'movieLanguage'; showClear($event)">
+					Language
+				</button>
+				<button type="button" ng-click="predicate = 'movieDuration'; showClear($event)">
+					Duration
+				</button>
+				<button type="button" ng-click="predicate = 'pickedBy'; showClear($event)">
+					Picked By
+				</button>
+				<button type="button" ng-click="predicate = ''; showClear($event)"" id="clear_filter" ng-show="clearStatus">X</button>
+
+				<div class="radio">
+
+				<label>Ascending<input type="radio" ng-model="direction" name="direction"></label>
+				<label>Descending<input type="radio" ng-model="direction" name="direction" value="reverse"></label>
+				</div>
+
+				</div>
+				<!--End of Filters List!-->
+
+				</form>
+
+				</div>
+				<!--End of Filter!-->
+
+				<ul>
+
+				<li ng-repeat="movie in movies | orderBy:predicate:direction">
+								<div class="movie_big upcoming">
+				<h3>{{movie.movieName}}<span class="date">({{movie.movieDate}})</span></h3>
+				<div class="poster">
+				<img ng-src="{{movie.posterSource}}" ng-alt="{{movie.movieName}}" />
+				<p class="picked_by">Picked By: <span>{{movie.pickedBy}}</span></p>
+				<p class="rating">{{movie.totalRating}}</p>
+				</div>
+
+				<div class="details">
+				<h4 class="no-margin-top">Plot</h4>
+				<p class="plot">{{movie.moviePlot}}</p>
+
+				<h4>Starring</h4>
+				<ul class="starring">
+				<li ng-repeat="item in movie.actors"><p>{{item.actor}}</p></li>
+
+				</ul>
+
+				<p class="director">Directed By:<span>{{movie.movieDirector}}</span></p>
+
+				<h4>Genre</h4>
+				<ul class="genre">
+				<li ng-repeat="item in movie.genres"><p>{{item.genre}}</p></li>
+				</ul>
+
+				</div>
+				<!--End of Movie Details!-->
+
+				<div class="clr"></div>
+
+				<div class="club_info">
+					<p class="Language">
+						Language:<span>{{movie.movieLanguage}}</span>
+					</p>
+					<p class="duration">
+						Duration:<span>{{movie.movieDuration}}</span>Minutes
+					</p>
+					<p class="nada_rating">
+						Nada's Rating:<span>{{movie.nadaRating}}</span>/10
+					</p>
+					<p class="ex_rating">
+						Ex's Rating:<span>{{movie.exRating}}</span>/10
+					</p>
+					<div class="clr"></div>
+				</div>
+
+				<!--End of Club Info!-->
+
+				<hr>
+
+			</div>
+			<!--End of Upcoming Movie!-->
+
+			</li>
+
+			</ul>
+
+	</div>
+	<!--End of Movie List!-->

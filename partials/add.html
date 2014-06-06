@@ -1,0 +1,165 @@
+<div class="add_movie">
+	<form name="add_movie_form">
+
+		<fieldset>
+			<label>Movie Name</label>
+			<input type="text" ng-model = "movies[0].movieName" />
+		</fieldset>
+
+		<fieldset>
+			<label>Movie Year</label>
+			<input type="text" ng-model = "movies[0].movieDate" />
+		</fieldset>
+
+		<fieldset>
+			<label>Picked By</label>
+			<input type="text" ng-model = "movies[0].pickedBy" />
+		</fieldset>
+
+		<fieldset>
+			<label>Poster Link</label>
+			<input type="text" ng-model = "movies[0].posterSource" />
+		</fieldset>
+
+		<fieldset>
+			<label>Poster Link</label>
+			<textarea ng-model = "movies[0].moviePlot"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<label>Starring</label>
+			<ul>
+				<li ng-repeat="item in movies[0].actors">
+					<input type="text" ng-model = "item.actor" />
+				</li>
+
+			</ul>
+		</fieldset>
+		<fieldset>
+			<label>Genre</label>
+			<ul>
+				<li ng-repeat="item in movies[0].genres">
+					<input type="text" ng-model = "item.genre" />
+				</li>
+
+			</ul>
+		</fieldset>
+		<fieldset>
+			<label>Duration</label>
+			<input type="text" ng-model = "movies[0].movieDuration" />
+		</fieldset>
+		<fieldset>
+			<label>Language</label>
+			<input type="text" ng-model = "movies[0].movieLanguage" />
+		</fieldset>
+		<fieldset>
+			<label>Director</label>
+			<input type="text" ng-model = "movies[0].movieDirector" />
+		</fieldset>
+
+		<div class="rating">
+
+			<fieldset>
+				<label>Nada's Rating</label>
+				<input type="number" ng-model = "movies[0].nadaRating" />
+			</fieldset>
+
+			<fieldset>
+				<label>Ex's Rating</label>
+				<input type="number" ng-model = "movies[0].exRating" />
+			</fieldset>
+
+		</div>
+
+		<fieldset>
+
+			<label>Total Rating</label>
+			<p class="total_rating">
+				{{(movies[0].nadaRating + movies[0].exRating) / 2}}
+			</p>
+		</fieldset>
+		<button id="submit_movie" ng-click="save()">
+			Add Movie
+		</button>
+		<a href="" ng-click="showPreview = true" id="show_preview">Preview</a>
+	</form>
+
+	<p>
+		{{msg}}
+	</p>
+
+</div>
+
+</form>
+</div>
+<!--End of Add Movie!-->
+
+<div class="movie_big edit_preview" ng-show="showPreview">
+	<a href="" ng-click = "showPreview = false;" id="close_preview">X</a>
+	<h2 class="main_title">Add Upcoming Movie <span class="date">1920</span></h2>
+
+	<h3>{{movies[0].movieName}}<span class="date">({{movies[0].movieDate}})</span></h3>
+	<div class="poster">
+		<img ng-src="{{movies[0].posterSource}}" ng-alt="{{movies[0].movieName}}" />
+		<p class="picked_by">
+			Picked By: <span>{{movies[0].pickedBy}}</span>
+		</p>
+		<p class="rating">
+			{{movies[0].totalRating}}
+		</p>
+	</div>
+
+	<div class="details">
+		<h4 class="no-margin-top">Plot</h4>
+		<p class="plot">
+			{{movies[0].moviePlot}}
+		</p>
+
+		<h4>Starring</h4>
+		<ul class="starring">
+			<li ng-repeat="item in movies[0].actors">
+				<p>
+					{{item.actor}}
+				</p>
+			</li>
+
+		</ul>
+
+		<p class="director">
+			Directed By:<span>{{movies[0].movieDirector}}</span>
+		</p>
+
+		<h4>Genre</h4>
+		<ul class="genre">
+			<li ng-repeat="item in movies[0].genres">
+				<p>
+					{{item.genre}}
+				</p>
+			</li>
+		</ul>
+
+	</div>
+	<!--End of Movie Details!-->
+
+	<div class="clr"></div>
+
+	<div class="club_info">
+		<p class="Language">
+			Language:<span>{{movies[0].movieLanguage}}</span>
+		</p>
+		<p class="duration">
+			Duration:<span>{{movies[0].movieDuration}}</span>Minutes
+		</p>
+		<p class="nada_rating">
+			Nada's Rating:<span>{{movies[0].nadaRating}}</span>/10
+		</p>
+		<p class="ex_rating">
+			Ex's Rating:<span>{{movies[0].exRating}}</span>/10
+		</p>
+		<div class="clr"></div>
+	</div>
+
+	<!--End of Club Info!-->
+
+</div>
+<!--End of Upcoming Movie!-->

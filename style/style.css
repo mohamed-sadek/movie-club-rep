@@ -1,0 +1,534 @@
+@font-face {
+	font-family: 'roboto_condensedregular';
+	src: url('fonts/RobotoCondensed-Regular-webfont.eot');
+	src: url('fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/RobotoCondensed-Regular-webfont.woff') format('woff'), url('fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'), url('fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lobster_1.4regular';
+	src: url('fonts/lobster_1.4-webfont.eot');
+	src: url('fonts/lobster_1.4-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/lobster_1.4-webfont.woff') format('woff'), url('fonts/lobster_1.4-webfont.ttf') format('truetype'), url('fonts/lobster_1.4-webfont.svg#lobster_1.4regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+.clr {
+	clear: both;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+
+/* hides the spin-button for firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+/* hides the spin-button for chrome*/
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/*End of Reset*/
+
+body {
+
+	font-family: 'roboto_condensedregular', sans-serif;
+	color: #262631;
+}
+
+h1 {
+	font-family: 'lobster_1.4regular', cursive;
+}
+a {
+	color: #212123;
+	font-size: 14px;
+	text-decoration: none;
+}
+a:hover {
+	color: #1b4982;
+	transition: all 0.4s
+}
+
+.container {
+	width: 960px;
+	margin: 30px auto 0;
+	padding: 10px 20px 30px;
+	overflow: hidden
+}
+aside {
+	float: left;
+	padding: 28px 30px 100px 0;
+	width: 125px
+}
+aside nav li {
+	display: block;
+	width: 100%;
+	margin: 0 0 20px;
+}
+aside nav li a {
+	font-size: 21px;
+	display: block;
+	text-transform: uppercase;
+}
+aside nav li.active a {
+	color: #1b4982
+}
+section.main {
+	float: left;
+	width: 700px;
+	padding: 10px 0 10px 30px;
+	border-left: 1px solid #ccc;
+}
+h1.page_title {
+	font-size: 50px;
+	text-align: center;
+	color: #1b4982;
+	width: 1000px;
+	margin: 10px auto 0;
+}
+h1.page_title span {
+	color: #e1e400;
+}
+h2.main_title {
+	font-size: 32px;
+	margin: 0 0 20px 0;
+	padding: 0 0 4px 0;
+	border-bottom: 1px solid #ccc;
+}
+.movie_big h2 span {
+	font-size: 22px;
+	color: #1b4982;
+	display: inline-block;
+	float: right;
+	margin: 9px 0 0;
+}
+.movie_big h3 {
+	font-size: 24px;
+	margin: 0 0 20px
+}
+.movie_big h3 span.date {
+	font-size: 20px;
+	color: #1b4982;
+	margin: 0 0 0 5px
+}
+.movie_big .poster {
+	background-color: rgba(27, 73, 139, 0.5);
+	padding: 5px;
+	float: left;
+	display: inlie-block;
+	width: 214px;
+	height: 317px;
+	position: relative;
+}
+.movie_big .poster:hover {
+	background-color: rgba(27, 73, 139, 1);
+	transition: all 0.6s
+}
+.movie_big .poster p.picked_by, .movie_big .poster p.rating {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	background: rgba(27, 73, 139, 0.8);
+	color: #fff;
+	display: block;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+.movie_big .poster p.rating {
+	right: auto;
+	left: 5px;
+	padding: 10px;
+	font-size: 16px;
+	top: 5px;
+	bottom: auto;
+}
+
+.movie_big .details {
+	float: left;
+	margin: 0 0 0 10px;
+	width: 450px
+}
+.movie_big .details h4 {
+	font-size: 22px;
+	line-height: 24px;
+	margin: 20px 0 5px;
+	clear: both;
+}
+.movie_big p.plot {
+	font-size: 15px;
+	line-height: 19px;
+}
+.movie_big ul.starring, .movie_big ul.genre {
+	overflow: hidden;
+}
+.movie_big ul.starring li, .movie_big ul.genre li {
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 6px 14px 7px;
+	background: #1b4982;
+	color: #fff;
+}
+.movie_big ul.starring li:hover, .movie_big ul.genre li:hover, .filters_list button:hover {
+	background: #e1e400;
+	transition: all 0.6s;
+	cursor: default;
+	color: #1b4982
+}
+.movie_big ul.genre {
+	clear: both;
+}
+.movie_big p.director {
+	margin: 10px 0;
+	clear: both;
+}
+.movie_big p.director span {
+	color: #1b4982;
+	margin: 0 0 0 3px;
+}
+.movie_big .club_info {
+	clear: both;
+	margin: 10px 0 0;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc
+}
+.movie_big .club_info p {
+	float: left;
+	margin: 5px 1% 5px 0;
+	width: 48%
+}
+.movie_big .club_info p span {
+	color: #1b4982;
+	margin: 0 0 0 3px
+}
+.movie_big .club_info p.duration span {
+	margin: 0 3px;
+}
+.movie_big .comment {
+	clear: both;
+	margin: 10px 0 0;
+}
+.movie_big .comment div {
+	float: left;
+	width: 50%;
+}
+.movie_big .comment div.ex_comment {
+	float: right;
+}
+.movie_big .comment div p {
+	font-size: 16px;
+	line-height: 22px;
+}
+.upcoming .club_info {
+	border: none;
+}
+.movie_big {
+	margin: 0 0 50px;
+}
+.movie_list .movie_big {
+	margin: 0 0 20px;
+}
+
+.filter {
+	margin: 0 0 10px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden
+}
+.filter label {
+	font-size: 15px;
+	margin: 7px 10px 0 0;
+	float: left;
+}
+.filter button {
+	float: left;
+	border: none;
+	background: #1B4982;
+	color: #fff;
+	font-size: 15px;
+	padding: 5px 6px;
+	text-align: center;
+	margin: 0 5px 0 0;
+}
+.filter button:hover {
+	cursor: pointer;
+}
+.filter button#clear_filter {
+	background: #333;
+}
+.filter button#clear_filter:hover {
+	background: #666;
+	color: #fff;
+}
+.filter .radio {
+	float: right;
+	margin: 8px
+}
+.filter .radio input {
+	margin: 0 0 0 5px;
+}
+.filter .radio label:first-child {
+	margin: 0;
+}
+.filter .radio label {
+	margin: 0 0 0 20px;
+}
+.club_rules ul li {
+	margin: 0 0 10px;
+	font-size: 26px;
+	line-height: 34px;
+}
+.club_rules ul li span {
+	font-size: 24px;
+	color: #1b4982;
+}
+
+.top10 h3 span.number {
+	font-size: 24px;
+	color: #1b4982
+}
+
+.ex_name {
+	color: #000 !important;
+}
+.nada_name {
+	color: #1b4982
+}
+.no-margin-top {
+	margin-top: 0 !important;
+}
+
+.edit_popup {
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -200px;
+	width: 400px;
+	height: 400px;
+	background: #fff;
+}
+
+.view-animate-container {
+	position: relative;
+	min-height: 1000px !important;
+	position: relative;
+	overflow: hidden;
+}
+
+.view-animate {
+	background: #fff;
+}
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+	-webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s;
+	transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.view-animate.ng-enter {
+	left: 100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+	left: 0;
+}
+.view-animate.ng-leave.ng-leave-active {
+	left: -100%;
+}
+
+.edit_preview {
+	padding: 15px;
+	width: 900px;
+	height: 600px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -450px;
+	background: #fff;
+	border: 1px solid #1B4982;
+}
+.edit_preview #close_preview {
+	float: right;
+	margin: 0 0 10px;
+	background: #1B4982;
+	color: #fff;
+	padding: 2px 5px;
+}
+
+.edit_preview #close_preview:hover {
+	background: #E1E400;
+	color: #fff;
+}
+.edit_preview .main_title {
+	clear: both
+}
+.add_movie fieldset {
+	width: 100%;
+	margin: 0 0 10px
+}
+.add_movie fieldset label {
+	float: left;
+	width: 15%
+}
+.add_movie fieldset textarea, .add_movie fieldset input {
+	float: left;
+	width: 50%;
+	height: 25px;
+	border: 1px solid #ccc;
+	padding: 1px 3px 1px 5px;
+	font-size: 15px;
+	line-height: 15px;
+}
+.add_movie fieldset textarea {
+	height: 150px;
+	max-width: 50%;
+	font-size: 13px;
+	font-family: arial;
+	line-height: 20px
+}
+.add_movie fieldset li {
+	float: left;
+}
+.add_movie fieldset li  input {
+	width: 85%;
+	margin: 0 0 0 5%
+}
+.add_movie fieldset li:first-child  input {
+	margin: 0;
+}
+.add_movie fieldset textarea:focus, .add_movie fieldset input:focus {
+	border: 1px solid #1B4982;
+	transition: all 0.6;
+}
+.add_movie  .rating {
+	overflow: hidden;
+}
+.add_movie fieldset .total_rating {
+	float: left;
+	width: 30%;
+	color: #1B4982;
+	font-size: 18px;
+}
+.add_movie #show_preview, .add_movie #submit_movie {
+	color: #fff;
+	border: none;
+	background: #1B4982;
+	padding: 2px 5px;
+	font-size: 15px;
+	margin: 20px 5px 0 0
+}
+.add_movie #show_preview {
+	background: #E1E400;
+	color: #1B4982
+}
+.add_movie #show_preview:hover, .add_movie #submit_movie:hover {
+	background: #1B4982;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.6s
+}
+footer {
+
+	margin:100px 0 0;
+	width:100%;
+	background:#1B4982;
+	padding:10px 0;
+
+}
+footer p.copyrights {
+
+	width:1000px;
+	margin:0 auto;
+	color:#fff;
+
+}

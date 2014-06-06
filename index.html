@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-cloak>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Friday Movie Club</title>
+		<link href="style/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" ></script>
+
+	</head>
+	<body>
+		<h1 class="page_title" id="pink">Friday <span>Movie</span> Club</h1>
+		<div class="container">
+			<aside>
+				<nav ng-controller="NavController">
+					<ul>
+						<li ng-class="{active:isActive('/home')}">
+							<a href="#/home">Home Page</a>
+						</li>
+						<li ng-class="{active:isActive('/list')}">
+							<a href="#/list">Movies List</a>
+						</li>
+						<li ng-class="{active:isActive('/add')}">
+							<a href="#/add">Add a Movie</a>
+						</li>
+						<li ng-class="{active:isActive('/topten')}">
+							<a href="#/topten">Top 10 List</a>
+						</li>
+						<li ng-class="{active:isActive('/rules')}">
+							<a href="#/rules">Club Rules</a>
+						</li>
+						<li ng-class="{active:isActive('/blog')}">
+							<a href="#/blog">Movie Blog</a>
+						</li>
+					</ul>
+				</nav>
+				<!--End of Main Nav!-->
+
+			</aside>
+			<div class="view-animate-container">
+				<section class="main view-animate" ng-view></section>
+				<!--End of Section Main!-->
+			</div>
+			
+			<div class="clr"></div>
+			
+			
+			
+			<!--End of Footer-->
+
+		</div>
+		<!--End of Main Container!-->
+		
+		<footer>
+			<p class="copyrights">Designed, Developed and Powered By Mohamed Sadek - 2014</p>
+			
+			</footer>
+		
+
+		<script src="js/library.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+
+
+	</body>
+
+</html>

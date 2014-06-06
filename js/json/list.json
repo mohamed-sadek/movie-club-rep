@@ -1,0 +1,645 @@
+[
+{
+
+"watchDate" : "23rd of May 2014",
+"movieName" : "La Gran Illusion",
+"movieDate" : 1937,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 140,
+"movieLanguage" : "English",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+				
+								
+"nadaRating" : 7,
+"exRating" : 8,
+"totalRating" : 2		
+			
+
+},
+
+
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1956,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Ex",
+"movieDuration" : 110,
+"movieLanguage" : "French",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 7,
+
+"exRating" : 10,
+"totalRating" : 5	
+			
+
+},
+
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1960,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 94,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 10,
+
+"exRating" : 10,
+"totalRating" : 0
+			
+
+}, 
+
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 4	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Ex",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 7	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Ex",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3,
+"totalRating" : 0	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "La Grande Illusion",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "Mission Impossible",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "During the First World War, two French soldiers are captured and imprisoned in a German POW camp. Several escape attempts follow until they are sent to a seemingly impenetrable fortress which seems impossible to escape from.",
+"pickedBy" : "Nada",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+},
+{
+
+"watchDate" : "24rd of May 2014",
+"movieName" : "Hobson's Choice",
+"movieDate" : 1910,
+"posterSource" : "http://ia.media-imdb.com/images/M/MV5BMTU5NTA5MDA2Ml5BMl5BanBnXkFtZTcwNTc3NTMyMQ@@._V1_SY317_CR2,0,214,317_AL_.jpg",
+"moviePlot" : "Henry Hobson runs a successful bootmaker's shop in nineteenth-century Salford. A widower with a weakness for the pub opposite, he tries forcefully to run the lives of his three unruly daughters.",
+"pickedBy" : "Ex",
+"movieDuration" : 100,
+"movieLanguage" : "Spanish",
+"movieDirector" : "Jean Renoir",
+"genres" : [
+			{"genre": "Drama"},
+			{"genre": "Action"},
+			{"genre": "Romance"}
+			],
+			
+"actors" : [
+				{"actor": "Jean Gabin"},
+				{"actor": "Dita Parlo"},
+				{"actor": "Pierre Fresnay"}
+				
+
+				],
+				
+"nadaRating" : 5,
+
+"exRating" : 3	
+			
+
+}
+
+
+
+
+
+]
